@@ -45,7 +45,8 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('create') }}">Create Note</a></li>
-                        <li><a href="{{ url('contact') }}">My Contact</a></li>
+                        <li><a href="{{ url('contact') }}"><strong>My Contact</strong></a></li>
+                        <li><a href="{{ url('contact/create') }}">Create Contact</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

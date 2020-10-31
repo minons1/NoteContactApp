@@ -67,6 +67,7 @@ class ContactsController extends Controller
      */
     public function edit(Contact $contact)
     {
+        
         return view('contacts.edit', compact('contact'));
     }
 
@@ -84,7 +85,8 @@ class ContactsController extends Controller
 
         $contact->save();
 
-        return 'Saved!';
+        return redirect('contact');
+
     }
 
     /**

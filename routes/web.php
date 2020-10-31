@@ -25,7 +25,7 @@ Route::get('contact', 'ContactsController@index');
 Route::get('contact/create', 'ContactsController@create');
 Route::post('contact/create', 'ContactsController@store');
 Route::get('contact/edit/{contact}', 'ContactsController@edit');
-Route::patch('contact/edit/{contact}', 'ContactsController@update');
+Route::put('contact/edit/{contact}', 'ContactsController@update');
 Route::get('contact/delete/{contact}', 'ContactsController@delete');
 
 
